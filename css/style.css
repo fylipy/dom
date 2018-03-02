@@ -542,9 +542,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-services {
   padding-bottom: 0;
-  /*background: -webkit-linear-gradient(45deg, #fbfbfb 50%, #ffffff 50%);*/
+  /*background: -webkit-linear-gradient(45deg, #fbfbfb 50%, #ffffff 50%);
   background:url("../images/bg2.jpg");
-  /*background-attachment: fixed; */
+  background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #fbfbfb;
@@ -641,11 +641,11 @@ h1, h2, h3, h4, h5, h6 {
     content: '';
     position: absolute;
     top: -2.7rem;
-    bottom: 0;
+    bottom: -19px;
     left: -38rem;
     width: 147vh;
     z-index: 1;
-    transform: skewX(199deg);
+    transform: skewX(7deg);
     background: #272b4b;
 }
 
@@ -735,7 +735,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .getting-started {
-  background: #f4f4f6;
+  background: #e6e6e6;
+  background: radial-gradient(#f4f4f6, #ececec, #d4d4d4);
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -1260,7 +1261,8 @@ section#fh5co-home{overflow: hidden;}
   text-decoration: underline;
 }
 #fh5co-footer .section-title {
-  font-size: 22px;
+  font-size: 27px;
+  font-family: 'Abril Fatface', cursive;
   color: #fff;
   position: relative;
   padding-bottom: 20px;
