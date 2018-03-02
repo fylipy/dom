@@ -21,6 +21,8 @@
 
 
 
+
+
 	// Burger Menu
 	var burgerMenu = function() {
 
@@ -57,6 +59,19 @@
 		});
 	};
 
+
+	//Clickscroll
+	var Clickscroll = function(){
+		$('#imgscroll').click(function(event){
+			$('html, body').animate({
+			        	scrollTop: $('#fh5co-services').offset().top
+			    	}, 900);
+	});
+
+
+	};
+
+	
 	// Page Nav
 	var clickMenu = function() {
 
@@ -628,6 +643,7 @@
 		parallax();
 		burgerMenu();
 		clickMenu();
+		Clickscroll();
 		windowScroll();
 		navigationSection();
 		testimonialCarousel();
